@@ -2,6 +2,11 @@
 
 HarmonyOS 开发中，UIAbility 的生命周期是指 UIAbility 组件从创建到销毁的整个过程。这个过程包括一系列的状态转换和事件回调，开发者可以根据这些状态和回调来管理 UIAbility 的生命周期，从而实现更好的应用性能和用户体验。
 
+<div align=center>
+<img src="https://github.com/cnwutianhao/hmos-interview/assets/13990136/ed580d21-0eda-421b-a313-a151facc290a">
+</div>
+<br/>
+
 UIAbility 的生命周期主要包括以下几个阶段：
 
 1. **Create（创建）**：当 UIAbility 被创建时，系统会调用 onCreate 函数。在这个阶段，开发者可以进行一些初始化操作，比如设置 UI 界面、加载数据等。需要注意的是，在这个阶段，UIAbility 还没有被展示给用户，因此不能进行与用户交互的操作。
